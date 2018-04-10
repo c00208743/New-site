@@ -20,7 +20,12 @@ const IndexPage = () => (
     <div>
     </div>
 
-    <button>Click me</button>
+    <button id="one">Click me</button>
+
+    <div>
+    </div>
+
+    <button id="two">Click me 2</button>
 
     <div>
     </div>
@@ -41,6 +46,7 @@ const IndexPage = () => (
     </form>
 
   </div>
+
 
 )
 
