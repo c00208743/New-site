@@ -11,6 +11,8 @@ module.exports = {
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false,
       },
+
     },
+    'gatsby-plugin-resolve-src',
   ]
 };

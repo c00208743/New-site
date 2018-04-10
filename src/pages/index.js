@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import video_url from 'assets/Lucas.mp4'
 
 const IndexPage = () => (
 
@@ -23,6 +24,10 @@ const IndexPage = () => (
 
     <div>
     </div>
+
+    <video width="320" height="240" controls>
+      <source src={video_url} type="video/mp4"></source>
+    </video>
 
     <form>
       <p>First name:</p>
