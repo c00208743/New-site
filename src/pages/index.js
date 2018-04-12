@@ -30,9 +30,22 @@ const IndexPage = () => (
     <div>
     </div>
 
-    <video width="320" height="240" controls>
+    <video width="320" height="240" controls data-title="The Video Title" onpause="sendPause()" onplay="sendPlay()" onended="sendEnded()">
       <source src={video_url} type="video/mp4"></source>
     </video>
+
+    function sendPause()
+  {
+          ga('send', 'event', 'Video', 'pause', 'Lucas')
+  }
+  function sendPlay()
+  {
+          ga('send', 'event', 'Video', 'play', 'Lucas')
+  }
+  function sendEnded()
+  {
+        ga('send', 'event', 'Video', 'ended', 'Lucas')
+  }
 
     <form>
       <p>First name:</p>
@@ -46,6 +59,7 @@ const IndexPage = () => (
     </form>
 
   </div>
+
 
 
 )
