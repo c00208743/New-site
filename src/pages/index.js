@@ -37,7 +37,7 @@ const IndexPage = () => (
 
 
 
-    <form>
+    <form id="Names">
       <p>First name:</p>
       <input type="text" name="firstname" ></input>
 
