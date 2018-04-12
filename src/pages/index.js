@@ -30,8 +30,8 @@ const IndexPage = () => (
     <div>
     </div>
 
-    //ga(send ) is not idea to put ga code in web project
-    <video width="320" height="240" id="Lucas">
+
+    <video width="320" height="240" id="Lucas" controls>
       <source src={video_url} type="video/mp4"></source>
     </video>
 
