@@ -1,33 +1,34 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = () => (
+const Footer = () => (
   <div
     style={{
-      background: '#3AFAA9',
-      marginBottom: '2rem',
+      background: '#2B7A7B',
+
     }}
   >
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '2rem 1.0875rem',
+        padding: '1rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h5 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#17252A',
             textDecoration: 'none',
           }}
         >
-          Jamie Murphy
+          <p>This site is developed in React by Jamie Murphy, student of the
+          Institute of Technologly Carlow.</p>
         </Link>
-      </h1>
+      </h5>
     </div>
   </div>
 )
 
-export default Header
+export default Footer

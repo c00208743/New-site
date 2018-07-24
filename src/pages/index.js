@@ -1,52 +1,52 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import video_url from 'assets/Lucas.mp4'
 
 const IndexPage = () => (
 
   <div>
-    <h1>Hi Jamie</h1>
-    <p>What ideas do you have for this website Jamie?</p>
-    <ul>
-      <li>Clock</li>
-      <li> know</li>
-      <li>dont know</li>
-    </ul>
-    <Link to="/page-2/">Go to page 2</Link>
-    <div>
-    </div>
-    <Link to="/counter/">Counter</Link>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
-    <div>
-    </div>
 
-    <button id="one">Click me</button>
+  <section id="work">
+    <h2>Work</h2>
+    <h3>Software Intern  •  ReInvent Software   •   March 2017 - Present</h3>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+  </section>
 
-    <div>
-    </div>
+  <section id="education">
+    <h2>Education</h2>
+    <h3>Fourth Year  •  Institute of Technologly Carlow   •   Currently</h3>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+      <hr></hr>
+    <h3>Computer Games Development •  Blackrock Institute of Further Education   •   2014/15</h3>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+  </section>
 
-    <button id="two">Click me 2</button>
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+  </section>
 
-    <div>
-    </div>
+  <section id="database">
+    <h2>Database</h2>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+  </section>
 
-
-    <video width="320" height="240" id="Lucas" controls>
-      <source src={video_url} type="video/mp4"></source>
-    </video>
-
-
-
-    <form id="Names">
-      <p>First name:</p>
-      <input type="text" name="firstname" ></input>
-
-      <p>Last name:</p>
-      <input type="text" name="lastname" ></input>
-
-      <input type="submit" value="Submit"></input>
-
-    </form>
+  <section id="app">
+    <h2>Applications Used</h2>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+    <p>Look up how to change the domain</p>
+  </section>
 
   </div>
 

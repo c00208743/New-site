@@ -59,12 +59,15 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: .67em 0;
 }
 mark {
   background-color: #ff0;
   color: #000;
+}
+section {
+  background-color: #DEF2F1;
 }
 small {
   font-size: 80%;
@@ -196,6 +199,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
@@ -232,41 +241,44 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 4rem;
   line-height: 1.1;
 }
 h2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 10px;
   padding-right: 0;
-  padding-top: 0;
+  padding-top: 10px;
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 2rem;
   line-height: 1.1;
+  text-decoration: underline;
+  text-decoration-color: #3AAFA9;
 }
 h3 {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  text-align: center;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Bell MT, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size: 1.2rem;
   line-height: 1.1;
 }
 h4 {

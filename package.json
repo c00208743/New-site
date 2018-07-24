@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "new-site",
+  "description": "new-site-by-Jamie",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jamie <c00208743@itcarlow.ie>",
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
