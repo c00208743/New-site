@@ -7,7 +7,7 @@ const IndexPage = () => (
 
   <section id="work">
     <h2>Work</h2>
-    <h3>Software Intern  •  ReInvent Software   •   March 2017 - Present</h3>
+    <h3>Software Intern  •  ReInvent Software   •   March 2018 - Present</h3>
     <p>Look up how to change the domain</p>
     <p>Look up how to change the domain</p>
     <p>Look up how to change the domain</p>
@@ -50,11 +50,6 @@ const IndexPage = () => (
 
   </div>
 
-
-
 )
-
-
-
 
 export default IndexPage
