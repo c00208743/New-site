@@ -10,9 +10,8 @@ const Footer = () => (
   >
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1rem 1.0875rem',
+        margin: '0',
+        padding: '1rem 1rem',
       }}
     >
       <h5 style={{ margin: 0 }}>
@@ -23,8 +22,8 @@ const Footer = () => (
             textDecoration: 'none',
           }}
         >
-          <p>This site is developed in React by Jamie Murphy, student of the
-          Institute of Technologly Carlow.</p>
+          This site is developed in React by Jamie Murphy, student of the
+          Institute of Technologly Carlow.
         </Link>
       </h5>
     </div>

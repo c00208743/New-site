@@ -83,11 +83,9 @@ sub {
 sup {
   top: -.5em;
 }
-img {
-  border-style: none;
-}
 svg:not(:root) {
   overflow: hidden;
+  fill: #DEF2F1;
 }
 code,
 kbd,
@@ -209,10 +207,18 @@ img {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  border-style: none;
+  width: 100px;
+}
+#appRow{
+  margin: auto;
+  text-align: center;
+  padding-left: 100;
+  padding-right: 100;
 }
 h1 {
   margin-left: 0;
@@ -221,7 +227,7 @@ h1 {
   padding-bottom: 10px;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 100px;
+  padding-top: 150px;
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -250,7 +256,7 @@ h2 {
   font-size: 2rem;
   line-height: 1.1;
   text-decoration: underline;
-  text-decoration-color: #3AAFA9;
+  text-decoration-color: #08FF00;
 }
 h3 {
   margin-left: 20px;
@@ -303,6 +309,7 @@ h5 {
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
+  text-align: center;
 }
 h6 {
   margin-left: 0;
@@ -384,6 +391,8 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 figure {
   margin-left: 0;
