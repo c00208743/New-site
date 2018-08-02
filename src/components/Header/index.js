@@ -9,8 +9,6 @@ import {linkedin} from 'react-icons-kit/icomoon/linkedin'
 const Header = () => (
   <div
     style={{
-      //background: '#2B2B2B',
-      marginBottom: '2rem',
       background: `url(${img})`,
       backgroundSize: 'cover',
 

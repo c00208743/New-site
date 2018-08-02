@@ -15,7 +15,7 @@ const IndexPage = () => (
 
   <div>
 
-  <section id="work">
+  <section id="content">
     <h2>Work</h2>
     <h3>Software Intern  •  ReInvent Software   •   March 2018 - Present</h3>
     <p>• Involved in the development and maintenance of a clients Shopify website.</p>
@@ -23,16 +23,16 @@ const IndexPage = () => (
     <p>• Grew a knowlegde of the best methods to build website and mobile applications using React and React native respectfully.</p>
   </section>
 
-  <section id="education">
+  <section id="content">
     <h2>Education</h2>
     <h3>Institute of Technologly Carlow</h3>
-    <p>Bachelor of Science, Computer Games Development  •  Co. Carlow Ireland  •  Currently</p>
+    <p  id="college">Bachelor of Science, Computer Games Development  •  Co. Carlow Ireland  •  Currently</p>
       <hr></hr>
     <h3>Blackrock Institute of Further Education</h3>
-    <p>QQI Level 5 Games Design & Development  •  Co. Dublin Ireland  •  2014/15</p>
+    <p  id="college">QQI Level 5 Games Design & Development  •  Co. Dublin Ireland  •  2014/15</p>
   </section>
 
-  <section id="skills">
+  <section id="content">
     <h2>Skills</h2>
     <p>Programming languges</p>
     <p>Worked primarily with JavaScript, Python and C++ in college.</p>
@@ -42,7 +42,7 @@ const IndexPage = () => (
 
   </section>
 
-  <section id="app">
+  <section id="content">
     <h2>Applications Used</h2>
     <div id="appRow">
       <img src={GatsbyImg} ></img>

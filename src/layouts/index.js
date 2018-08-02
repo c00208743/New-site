@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import About from '../components/About'
 import './index.css'
 
 const TemplateWrapper = ({ children }) => (
@@ -17,12 +18,13 @@ const TemplateWrapper = ({ children }) => (
     />
 
     <Header />
+    <About></About>
 
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 1000,
-        padding: '0px 2rem 2rem',
+        maxWidth: 1200,
+        padding: '0px 1rem 1rem',
         paddingTop: 0,
       }}
     >

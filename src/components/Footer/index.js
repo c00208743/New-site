@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const Footer = () => (
   <div
     style={{
-      background: '#2B7A7B',
+      background: '#363A2B',
 
     }}
   >
@@ -18,7 +18,7 @@ const Footer = () => (
         <Link
           to="/"
           style={{
-            color: '#17252A',
+            color: '#64D35D',
             textDecoration: 'none',
           }}
         >
