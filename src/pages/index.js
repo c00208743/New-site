@@ -5,7 +5,6 @@ import GatsbyImg from '../assets/gatsby.png'
 import ReactImg from '../assets/React.svg.png'
 import NetlifyImg from '../assets/netlify.png'
 import AtomyImg from '../assets/Atom.svg.png'
-
 import ReactNativeImg from '../assets/react-native.png'
 import ExpoImg from '../assets/Expo.png'
 import MicrosoftVSImg from '../assets/MicrosoftVS.png'
@@ -37,22 +36,21 @@ const IndexPage = () => (
     <p>Programming languges</p>
     <p>Worked primarily with JavaScript, Python and C++ in college.</p>
     <p>Interested in building React websites and scapable mobile applications</p>
-    <p>DataBases used</p>
-    <p>Look up how to change the domain</p>
+  
+);
 
   </section>
 
   <section id="content">
-    <h2>Applications Used</h2>
+    <h2>Assets Used</h2>
     <div id="appRow">
-      <img src={GatsbyImg} ></img>
-      <img src={ReactImg} ></img>
-      <img src={NetlifyImg} ></img>
-      <img src={AtomyImg} ></img>
-      <img src={ReactNativeImg} ></img>
-      <img src={ExpoImg} ></img>
-      <img src={MicrosoftVSImg} ></img>
-      <img src={UnityImg} ></img>
+      <a href="https://www.gatsbyjs.org/"><img src={GatsbyImg} ></img></a>
+      <a href="https://reactjs.org/"><img src={ReactImg} ></img></a>
+      <a href="https://www.netlify.com/"><img src={NetlifyImg} ></img></a>
+      <a href="https://atom.io/"><img src={AtomyImg} ></img></a>
+      <a href="https://facebook.github.io/react-native/"><img src={ReactNativeImg} ></img></a>
+      <a href="https://expo.io/"><img src={ExpoImg} ></img></a>
+      <a href="https://unity3d.com/"><img src={UnityImg} ></img></a>
     </div>
   </section>
 
