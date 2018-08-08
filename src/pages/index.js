@@ -15,7 +15,7 @@ const IndexPage = () => (
   <div>
 
   <section id="content">
-    <h2>Work</h2>
+    <h2 id="work">Work</h2>
     <h3>Software Intern  •  ReInvent Software   •   March 2018 - Present</h3>
     <p>• Involved in the development and maintenance of a clients Shopify website.</p>
     <p>• Developed python scripts to interprete .xls files that contained client’s product list’s to create a database.</p>
@@ -23,7 +23,7 @@ const IndexPage = () => (
   </section>
 
   <section id="content">
-    <h2>Education</h2>
+    <h2 id="education">Education</h2>
     <h3>Institute of Technologly Carlow</h3>
     <p  id="college">Bachelor of Science, Computer Games Development  •  Co. Carlow Ireland  •  Currently</p>
       <hr></hr>
@@ -32,17 +32,15 @@ const IndexPage = () => (
   </section>
 
   <section id="content">
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <p>Programming languges</p>
     <p>Worked primarily with JavaScript, Python and C++ in college.</p>
     <p>Interested in building React websites and scapable mobile applications</p>
-  
-);
 
   </section>
 
   <section id="content">
-    <h2>Assets Used</h2>
+    <h2 id="assets">Assets Used</h2>
     <div id="appRow">
       <a href="https://www.gatsbyjs.org/"><img src={GatsbyImg} ></img></a>
       <a href="https://reactjs.org/"><img src={ReactImg} ></img></a>
