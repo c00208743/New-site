@@ -49,6 +49,7 @@ const IndexPage = () => (
       <a href="https://facebook.github.io/react-native/"><img src={ReactNativeImg} ></img></a>
       <a href="https://expo.io/"><img src={ExpoImg} ></img></a>
       <a href="https://unity3d.com/"><img src={UnityImg} ></img></a>
+      <a href="https://visualstudio.microsoft.com/"><img src={MicrosoftVSImg} ></img></a>
     </div>
   </section>
 

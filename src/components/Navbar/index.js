@@ -2,17 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Navbar = () => (
-  <div id="nav"
-    style={{
-      margin: '0',
-    }}
-  >
+  <div id="nav">
     <div
       style={{
-        margin: 'auto',
+        margin: '0 auto',
         maxWidth: 960,
-        minHeight: 35,
-        padding: '1rem 1rem',
+        minHeight: 45,
+        padding: '0.25rem 0.25rem',
       }}
     >
 
