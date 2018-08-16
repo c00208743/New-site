@@ -7,17 +7,21 @@ import Footer from '../components/Footer'
 import About from '../components/About'
 import Navbar from '../components/Navbar'
 import './index.css'
+import Img from '../assets/favicon.png'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet>
-      <title>"Jamie Murphy's Website"</title>
-      <meta name="description"></meta>
-      <link rel="icon" type="image/png" href="../assets/Unity.png" sizes="16x16" />
-    </Helmet>
+    <Helmet
+      title="Jamie Murphy's Website"
+      meta={[
+        { name: 'description', content: 'Sample' },
+        { name: 'keywords', content: 'sample, something' },
+      ]}
+      link={[
+        { rel:"icon", href:Img },
 
-
-
+      ]}
+    />
 
     <Navbar />
     <Header />
