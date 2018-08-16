@@ -10,13 +10,15 @@ import './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title="Jamie Murphy Website"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
+    <Helmet>
+      <title>"Jamie Murphy's Website"</title>
+      <meta name="description"></meta>
+      <link rel="icon" type="image/png" href="../assets/Unity.png" sizes="16x16" />
+    </Helmet>
+
+
+
+
     <Navbar />
     <Header />
     <About></About>
